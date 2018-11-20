@@ -31,9 +31,10 @@ and open the template in the editor.
         </div>
         <div>
             <p><?php
-                $tab_month = array ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
+                $tab_month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
                 print_r($tab_month);
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

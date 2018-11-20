@@ -16,18 +16,20 @@ and open the template in the editor.
             <p>Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau ainsi que les clés associés.<br />Cela pourra être, par exemple, de la forme : "Le département" + nom du département + "a le numéro" + numéro du département</p>
         </div>
         <div>
-            <p><?php
-                $tab_departments = array (
-                    02 => 'Aisne',
-                    59 => 'Nord',
-                    60 => 'Oise',
-                    62 => 'Pas-de-Calais',
-                    80 => 'Somme'
-                );
-                foreach($tab_departments as $number_department => $name_department) {
-                    echo 'Le département ' . $name_department . ' a le numéro ' . $number_department . '<br />';
-                }
-            ?></p>
+            <?php
+            $tab_departments = array(
+                02 => 'Aisne',
+                59 => 'Nord',
+                60 => 'Oise',
+                62 => 'Pas-de-Calais',
+                80 => 'Somme'
+            );
+            foreach ($tab_departments as $number_department => $name_department) {
+            ?>
+                <p>Le département <?= $name_department; ?> à le numéro <?= $number_department; ?></p>
+            <?php
+            }
+            ?>
         </div>
     </body>
 </html>

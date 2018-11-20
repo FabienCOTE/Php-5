@@ -16,17 +16,19 @@ and open the template in the editor.
             <p>Avec le tableau de l'exercice 5, ajouter la ligne correspondant au département de la ville de Reims.</p>
         </div>
         <div>
-            <p><?php
-                $tab_departments = array (
+            <p>
+                <?php
+                $tab_departments = array(
                     02 => 'Aisne',
                     59 => 'Nord',
                     60 => 'Oise',
                     62 => 'Pas-de-Calais',
                     80 => 'Somme'
                 );
-                $tab_departments[51] = 'Reims';
+                $tab_departments[51] = 'Marne';
                 print_r($tab_departments);
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

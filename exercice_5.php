@@ -16,8 +16,9 @@ and open the template in the editor.
             <p>Créer un tableau associatif avec comme index le numéro des départements des Hauts de France et en valeur leur nom.</p>
         </div>
         <div>
-            <p><?php
-                $tab_departments = array (
+            <p>
+                <?php
+                $tab_departments = array(
                     02 => 'Aisne',
                     59 => 'Nord',
                     60 => 'Oise',
@@ -25,7 +26,8 @@ and open the template in the editor.
                     80 => 'Somme'
                 );
                 print_r($tab_departments);
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

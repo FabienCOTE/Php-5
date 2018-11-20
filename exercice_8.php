@@ -16,12 +16,14 @@ and open the template in the editor.
             <p>Avec le tableau de l'exercice 1 et une boucle, afficher toutes les valeurs de ce tableau.</p>
         </div>
         <div>
-            <p><?php
-                $tab_month = array ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
-                foreach($tab_month as $month) {
-                    echo '<p>' . $month . '</p>';
-                }
-            ?></p>
+            <?php
+            $tab_month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
+            foreach ($tab_month as $month) {
+            ?>
+            <p><?= $month; ?></p>
+            <?php
+            }
+            ?>
         </div>
     </body>
 </html>

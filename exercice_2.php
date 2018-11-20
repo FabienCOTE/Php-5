@@ -16,10 +16,12 @@ and open the template in the editor.
             <p>Avec le tableau de l'exercice 1, afficher la valeur de la troisième ligne de ce tableau.</p>
         </div>
         <div>
-            <p><?php
-                $tab_month = array ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
+            <p>
+                <?php
+                $tab_month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
                 echo $tab_month[2];
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

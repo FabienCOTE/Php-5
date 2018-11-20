@@ -16,10 +16,12 @@ and open the template in the editor.
             <p>Avec le tableau de l'exercice , afficher la valeur de l'index 5.</p>
         </div>
         <div>
-            <p><?php
-                $tab_month = array ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
+            <p>
+                <?php
+                $tab_month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
                 echo $tab_month[5];
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

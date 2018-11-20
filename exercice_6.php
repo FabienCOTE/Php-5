@@ -16,8 +16,9 @@ and open the template in the editor.
             <p>Avec le tableau de l'exercice 5, afficher la valeur de l'index 59.</p>
         </div>
         <div>
-            <p><?php
-                $tab_departments = array (
+            <p>
+                <?php
+                $tab_departments = array(
                     02 => 'Aisne',
                     59 => 'Nord',
                     60 => 'Oise',
@@ -25,7 +26,8 @@ and open the template in the editor.
                     80 => 'Somme'
                 );
                 echo $tab_departments[59];
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

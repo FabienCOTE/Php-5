@@ -16,18 +16,20 @@ and open the template in the editor.
             <p>Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau.</p>
         </div>
         <div>
-            <p><?php
-                $tab_departments = array (
-                    02 => 'Aisne',
-                    59 => 'Nord',
-                    60 => 'Oise',
-                    62 => 'Pas-de-Calais',
-                    80 => 'Somme'
-                );
-                foreach($tab_departments as $department) {
-                    echo '<p>' . $department . '</p>';
-                }
-            ?></p>
+            <?php
+            $tab_departments = array(
+                02 => 'Aisne',
+                59 => 'Nord',
+                60 => 'Oise',
+                62 => 'Pas-de-Calais',
+                80 => 'Somme'
+            );
+            foreach ($tab_departments as $department) {
+            ?>
+            <p><?= $department; ?></p>
+            <?php
+            }
+            ?>
         </div>
     </body>
 </html>
