@@ -17,13 +17,13 @@ and open the template in the editor.
         </div>
         <div>
             <?php
-            $tab_departments = array(
+            $tab_departments = [
                 02 => 'Aisne',
                 59 => 'Nord',
                 60 => 'Oise',
                 62 => 'Pas-de-Calais',
                 80 => 'Somme'
-            );
+            ];
             foreach ($tab_departments as $number_department => $name_department) {
             ?>
                 <p>Le département <?= $name_department; ?> à le numéro <?= $number_department; ?></p>

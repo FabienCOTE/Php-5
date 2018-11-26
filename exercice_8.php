@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8" />
         <title>Exercice 8</title>
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div>
@@ -17,7 +17,20 @@ and open the template in the editor.
         </div>
         <div>
             <?php
-            $tab_month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
+            $tab_month = [
+                'janvier',
+                'février',
+                'mars',
+                'avril',
+                'mai',
+                'juin',
+                'juillet',
+                'aout',
+                'septembre',
+                'octobre',
+                'novembre',
+                'décembre'
+            ];
             foreach ($tab_month as $month) {
             ?>
             <p><?= $month; ?></p>

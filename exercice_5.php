@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8" />
         <title>Exercice 5</title>
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div>
@@ -18,13 +18,13 @@ and open the template in the editor.
         <div>
             <p>
                 <?php
-                $tab_departments = array(
+                $tab_departments = [
                     02 => 'Aisne',
                     59 => 'Nord',
                     60 => 'Oise',
                     62 => 'Pas-de-Calais',
                     80 => 'Somme'
-                );
+                ];
                 print_r($tab_departments);
                 ?>
             </p>

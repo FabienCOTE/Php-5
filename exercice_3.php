@@ -18,7 +18,20 @@ and open the template in the editor.
         <div>
             <p>
                 <?php
-                $tab_month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
+                $tab_month = [
+                    'janvier',
+                    'février',
+                    'mars',
+                    'avril',
+                    'mai',
+                    'juin',
+                    'juillet',
+                    'aout',
+                    'septembre',
+                    'octobre',
+                    'novembre',
+                    'décembre'
+                ];
                 echo $tab_month[5];
                 ?>
             </p>

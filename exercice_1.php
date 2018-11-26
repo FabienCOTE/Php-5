@@ -30,9 +30,23 @@ and open the template in the editor.
             </ul>
         </div>
         <div>
-            <p><?php
-                $tab_month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
-                print_r($tab_month);
+            <p>
+                <?php
+                $tab_month = [
+                    'janvier',
+                    'février',
+                    'mars',
+                    'avril',
+                    'mai',
+                    'juin',
+                    'juillet',
+                    'aout',
+                    'septembre',
+                    'octobre',
+                    'novembre',
+                    'décembre'
+                ];
+                echo nl2br(print_r($tab_month, true));
                 ?>
             </p>
         </div>
