@@ -1,9 +1,21 @@
+<?php
+$tab_month = [
+    'janvier',
+    'février',
+    'mars',
+    'avril',
+    'mai',
+    'juin',
+    'juillet',
+    'aout',
+    'septembre',
+    'octobre',
+    'novembre',
+    'décembre'
+];
+$show = $tab_month[2];
+?>
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html lang="fr">
     <head>
         <meta charset="UTF-8" />
@@ -16,25 +28,7 @@ and open the template in the editor.
             <p>Avec le tableau de l'exercice 1, afficher la valeur de la troisième ligne de ce tableau.</p>
         </div>
         <div>
-            <p>
-                <?php
-                $tab_month = [
-                    'janvier',
-                    'février',
-                    'mars',
-                    'avril',
-                    'mai',
-                    'juin',
-                    'juillet',
-                    'aout',
-                    'septembre',
-                    'octobre',
-                    'novembre',
-                    'décembre'
-                ];
-                echo $tab_month[2];
-                ?>
-            </p>
+            <p><?= $show; ?></p>
         </div>
     </body>
 </html>

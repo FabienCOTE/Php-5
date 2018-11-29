@@ -1,9 +1,21 @@
+<?php
+$tab_month = [
+    'janvier',
+    'février',
+    'mars',
+    'avril',
+    'mai',
+    'juin',
+    'juillet',
+    'aout',
+    'septembre',
+    'octobre',
+    'novembre',
+    'décembre'
+];
+$show = nl2br(print_r($tab_month, true));
+?>
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html lang="fr">
     <head>
         <meta charset="UTF-8" />
@@ -30,25 +42,7 @@ and open the template in the editor.
             </ul>
         </div>
         <div>
-            <p>
-                <?php
-                $tab_month = [
-                    'janvier',
-                    'février',
-                    'mars',
-                    'avril',
-                    'mai',
-                    'juin',
-                    'juillet',
-                    'aout',
-                    'septembre',
-                    'octobre',
-                    'novembre',
-                    'décembre'
-                ];
-                echo nl2br(print_r($tab_month, true));
-                ?>
-            </p>
+            <p><?= $show; ?></p>
         </div>
     </body>
 </html>
